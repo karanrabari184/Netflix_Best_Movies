@@ -99,3 +99,81 @@
   .btn:hover {
     background-color: #f40612;
   }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 2rem 1rem;
+      margin-top: -5rem;
+    }
+  
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .card {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .card-img-top {
+      height: auto;
+    }
+  
+    .card-body {
+      padding: 1rem;
+    }
+  
+    .btn {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  
+    .card-heading {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  .grid {
+    display: grid;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .grid-three--cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 1024px) {
+    .grid-three--cols {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-three--cols {
+      grid-template-columns: 1fr;
+    }
+  
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
+  }
+
+  ul.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
