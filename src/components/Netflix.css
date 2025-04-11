@@ -177,3 +177,22 @@
     margin: 0;
     padding: 0;
   }
+
+  .super_hit{
+    background-color: #7dcea0 ;
+  }
+
+  .average{
+    background-color: #f7dc6f;
+  }
+
+  .rating{
+    padding: 0.2rem 1.8rem;
+    color : #000;
+    margin-left: 1rem;
+    border-radius: 100rem;
+    -webkit-border-radius:100rem;
+    -moz-border-radius:100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius:100rem;
+  }

@@ -1,4 +1,4 @@
-import { Movie_home } from "./components/Movie_home";
+{/*import { Movie_home } from "./components/Movie_home";*/ }
 import NetflixSeries from "./components/NetflixSeries";
 import Profile from "./components/Profile";
 import "./components/Netflix.css"
